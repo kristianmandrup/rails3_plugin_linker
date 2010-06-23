@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "rails3_plugin_linker"
-    gem.summary = %Q{Configure a Rails3 app for plugin development and debuging}
+    gem.summary = %Q{Manage downloading and sym-linking to plugins from a Rails3 app to facilitate development and debugging of both app and plugins}
     gem.description = %Q{Download Rails 3 plugins and create symbolic links from Rails 3 app}
     gem.email = "kmandrup@gmail.com"
     gem.homepage = "http://github.com/kristianmandrup/netzke_config"
